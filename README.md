@@ -6,7 +6,9 @@ this project is just a demo how to use git
 // git commit
 
 // git log  - Xem lại lịch sử commit
-// git show
-// git diff
+// git show - Xem Chi tiết commit
+// git diff - Xem status vừa thay đổi
 
-// test
+// working directory
+// staging area
+// git repository
