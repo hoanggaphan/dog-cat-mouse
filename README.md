@@ -9,14 +9,18 @@ this project is just a demo how to use git
 // git show --> Xem Chi tiết commit
 // git diff --> Xem status vừa thay đổi
 
-// working directory
-// staging area
-// git repository
+// Working Directory
+// Staging Area
+// Git Repository
 
 // git restore <file> --> undo file vừa chỉnh sửa
-// git reset <file> --> đẩy file từ staging are -> working directory
+// git reset <file> --> Đẩy file từ staging are -> working directory
 
-// git checkout -b <branch> --> tạo và chuyển sang branch mới
-// git checkout <branch> --> chuyển branch
-// git merge <branch> --> gộp branch hiện tại với <branch> dc chỉ định
+// git checkout -b <branch> --> Tạo và chuyển sang branch mới
+// git checkout <branch> --> Chuyển branch
+// git merge <branch> --> Gộp branch hiện tại với <branch> dc chỉ định
 // git branch -D <branch> --> Xóa branch chỉ định
+
+// git reset --soft <id_commit> --> Đẩy các commit nằm trên commit chỉ định về Staging Area
+// git reset --mixed <id_commit> --> Đẩy các commit nằm trên commit chỉ định về Working Area
+// git reset --hard <id_commit> --> Xóa các commit nằm trên commit chỉ định
