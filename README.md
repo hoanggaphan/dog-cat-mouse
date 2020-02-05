@@ -13,5 +13,5 @@ this project is just a demo how to use git
 // staging area
 // git repository
 
-// git checkout
-// git reset
+// git restore <file> - undo file vừa chỉnh sửa
+// git reset <file> - đẩy file từ staging are -> working directory
