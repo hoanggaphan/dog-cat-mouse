@@ -5,4 +5,3 @@ const dog = new Dog("Tim");
 const cat = new Cat();
 
 dog.eat(cat);
-console.log(dog);
