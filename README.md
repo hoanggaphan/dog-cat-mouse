@@ -24,3 +24,5 @@ this project is just a demo how to use git
 // git reset --soft <id_commit> --> Đẩy các commit nằm trên commit chỉ định về Staging Area
 // git reset --mixed <id_commit> --> Đẩy các commit nằm trên commit chỉ định về Working Area
 // git reset --hard <id_commit> --> Xóa các commit nằm trên commit chỉ định
+
+// git revert <id_commit> --> undo lại commit dc chỉ định (Nguy hiểm ko nên xài nhìu)
