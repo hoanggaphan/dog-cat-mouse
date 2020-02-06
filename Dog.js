@@ -1,6 +1,9 @@
+const chalk = require("chalk");
+
 class Dog {
-    constructor() {
-        this.stomach = []
+    constructor(name) {
+        this.name = name;
+        this.stomach = [];
     }
     eat(cat) {
         this.stomach.push(cat)
@@ -8,4 +11,9 @@ class Dog {
     run() {
         console.log("fast very fast");
     }
+    sayHi() {
+        console.log("Hi! I am a dog. My name is " + chalk.blue(this.name));
+    }
 }
+
+module.exports = Dog;

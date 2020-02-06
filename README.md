@@ -26,3 +26,5 @@ this project is just a demo how to use git
 // git reset --hard <id_commit> --> Xóa các commit nằm trên commit chỉ định
 
 // git revert <id_commit> --> undo lại commit dc chỉ định (Nguy hiểm ko nên xài nhìu)
+
+// .gitignore --> khai báo những file, folder ko mún gửi đi để tránh dung lượng lớn, thường là node_modules
