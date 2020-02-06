@@ -1,4 +1,8 @@
 const Dog = require("./Dog.js");
+const Cat = require("./Cat.js");
 
 const dog = new Dog("Tim");
-dog.sayHi()
+const cat = new Cat();
+
+dog.eat(cat);
+console.log(dog);
