@@ -36,3 +36,13 @@ this project is just a demo how to use git
 
 // git clone <http> --> lấy bản sao source từ địa chỉ github
 // git pull --> cập nhật source của bạn từ địa chỉ
+
+// Pull request
+// 1. git checkout -b <feature_branch>
+// 2. git push origin <feature_branch>
+// 3. create a pull request on Github
+// 4. reveiw coe
+      4.1 review code online (github)
+      4.2 fetch branch into local to test offline (optinal)
+      4.3 approve the pull request
+// 5. merge to master

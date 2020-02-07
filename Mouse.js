@@ -1,4 +1,4 @@
-export default class Mouse {
+class Mouse {
     constructor(name) {
         this.name = name;
         this.isDead = false;
@@ -7,3 +7,5 @@ export default class Mouse {
         this.isDead = true;
     }
 }
+
+module.exports = Mouse;

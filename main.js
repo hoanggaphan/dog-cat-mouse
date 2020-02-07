@@ -1,7 +1,13 @@
-const Dog = require("./Dog.js");
 const Cat = require("./Cat.js");
+const Mouse = require("./Mouse.js");
+const Dog = require("./Dog.js");
 
-const dog = new Dog("Tim");
+const mouse = new Mouse("mickey");
 const cat = new Cat();
-
-dog.eat(cat);
+const dog = new Dog();
+try {
+    cat.eat(dog);
+    console.log(cat);
+} catch (error) {
+    console.log("Error while cat eating a dog");
+}
