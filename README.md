@@ -28,3 +28,11 @@ this project is just a demo how to use git
 // git revert <id_commit> --> undo lại commit dc chỉ định (Nguy hiểm ko nên xài nhìu)
 
 // .gitignore --> khai báo những file, folder ko mún gửi đi để tránh dung lượng lớn, thường là node_modules
+
+// git config --global credential.helper store 
+// ^^^ not recommend (~/git-credential) --> lưu thông tin user vào credential nhưng ko mã hóa
+
+// git config --global credential.helper "cache --timeout=18000" --> lưu thông tin user vào Ram, sau 18000s sẽ nhập lại
+
+// git clone <http> --> lấy bản sao source từ địa chỉ github
+// git pull --> cập nhật source của bạn từ địa chỉ
