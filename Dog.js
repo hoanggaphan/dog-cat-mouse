@@ -8,9 +8,6 @@ class Dog {
     eat(cat) {
         this.stomach.push(cat)
     }
-    run() {
-        console.log("fast very fast");
-    }
     sayHi() {
         console.log("Hi! I am a dog. My name is " + chalk.blue(this.name));
     }
