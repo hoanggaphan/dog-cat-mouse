@@ -6,7 +6,7 @@ const mouse = new Mouse("mickey");
 const cat = new Cat();
 const dog = new Dog();
 try {
-    cat.eat(dog);
+    cat.eat(mouse);
     console.log(cat);
 } catch (error) {
     console.log("Error while cat eating a dog");
