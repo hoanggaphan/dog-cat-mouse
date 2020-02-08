@@ -7,7 +7,13 @@ class Mouse {
         this.isDead = true;
     }
 }
+
 Mouse.prototype.run = function () {
     console.log('Run run run!');
 }
+
+Mouse.prototype.sleep = function () {
+    console.log("Sleep zzZZZZZ");
+}
+
 module.exports = Mouse;
