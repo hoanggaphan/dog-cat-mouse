@@ -7,5 +7,7 @@ class Mouse {
         this.isDead = true;
     }
 }
-
+Mouse.prototype.run = function () {
+    console.log('Run run run!');
+}
 module.exports = Mouse;
