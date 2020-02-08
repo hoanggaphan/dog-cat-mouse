@@ -8,6 +8,10 @@ class Mouse {
     }
 }
 
+Mouse.prototype.run = function () {
+    console.log('Run run run!');
+}
+
 Mouse.prototype.sleep = function () {
     console.log("Sleep zzZZZZZ");
 }
