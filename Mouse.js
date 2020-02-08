@@ -8,4 +8,8 @@ class Mouse {
     }
 }
 
+Mouse.prototype.sleep = function () {
+    console.log("Sleep zzZZZZZ");
+}
+
 module.exports = Mouse;
